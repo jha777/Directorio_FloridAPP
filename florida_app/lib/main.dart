@@ -286,7 +286,7 @@ class ImagenesCategoriaPage extends StatelessWidget {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.network(
+                        Image.asset(
                           imageUrl,
                           fit: BoxFit.cover,
                         ),
@@ -308,7 +308,7 @@ class ImagenesCategoriaPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.network(
+                  Image.asset(
                     imageUrl,
                     fit: BoxFit.cover,
                     height: 150,
