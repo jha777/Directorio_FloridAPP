@@ -194,69 +194,69 @@ class ImagenesCategoriaPage extends StatelessWidget {
 
   final Map<int, List<String>> imagenesPorCategoria = const {
     1: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvYNc21v0d_4q46tZCK69Z7AD-kbfnKBJhgZiWAceJAhaJJCrtc5EgwiR1f-rF6yczXf7GhEJjeU6e1MkbRgf0qENM1hzbtGt_SMiT5_C1rg117tdazFL73YZ343zGal_bN1K-f0xsJDyglMHz3VicPDsYYfZTUX_H-dUUGcR4yFvCrkYk4kdj5Hio9iI/w338-h640/Mafedir.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/arteculturaymusica/Mafedir.png',
+      'assets/images/Floridapp3.png',
     ],
     2: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXd7cMUCCEz4-qXsbJee7SCrOKFe0SVZKnSJpPGhp5WWjJ9jQfJ2p9pVT-GG7Lamit1fQJtWpRHfDp-H37ky-RdYc3eu9Qgpl1jdI7dvO0nEsm5PerWhwZMl35hS5GpvF9OlWWBC5rBBjJPFTOobEhAhB51kTJyZg48GJecfD8qS24zKEiSgN4nWForFM/w339-h640/Dirvita.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTdGnc8MihYnBtFZljTUHMBbgCHCI-L22ozWALM5h5558aKbLKkAduTT5QIqjTYoU61aDvzsKW-A9ktI0TDWA-10sYjncmayQpp_V1t0hf2pYkuWFyZPllrmsRcjxCZJE-GA54xI_g1qHM6lqD6WP8HE0Tocet62J1CGcAnOUe_eXSA7fEuoWiL1OY8Cg/w338-h640/Dirburguer.png',
+      'assets/images/restaurantes/Dirvita.png',
+      'assets/images/restaurantes/Dirburguer.png',
     ],
     3: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
     ],
     4: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg60VhUCOV10R43cDAeG2QuSPF-7CEuyt3epZ-zgox9ThfECgWf0WUHXhqKpf7maMhnY7fsaud9F6VVyQ07IzeRI0678W6uoHW3VmU1k5JwL4HWTvzx9BDZg4aZs5A4luAmRWs6JR7MIj1-YGfc8sAI1WO6JVzV7xKWjvevVkL1jdlEcdu7notsyS9k5e8/w338-h640/Dirvainilla.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/panaderiaypasteleria/Dirvainilla.png',
+      'assets/images/Floridapp3.png',
     ],
     5: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgisO0NF73SonumUB6qrFk1sP-2miaiFN7os1xXM5pKUx_gfhHL22RU-i3LlSsoU1rHWFXbCT42MNBc5R6DPh1CTzXfh8Gvfn5jxLKW4dKgZIcHKihso3kp4tyVX5ZSqgaxWFLRIRq709VCNRcT_5ewoOWuVvGlnuE62iY2HK5gKy-rwcJ1wGvvH02OlWA/w338-h640/DirPanelas.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/bebidasycomidas/DirPanelas.png',
+      'assets/images/Floridapp3.png',
     ],
     6: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
     ],
     7: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
     ],
     8: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
 
     ],
     9: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifngwymC5V-V-D6yQVvwizNRRNl3gGeSEoyoVSMiPspM4WhlxZkTihJ7AQp7aiXnBHA27B_uAxJfkHcv1Md4bE1PwNnKTDwplbV1ZlM34CGA48VA8M3WUzent8P2Mq_Z8Z6ZDKovcI0QO02Nh6knTDHvJ2_fvQN7q_fL2gWQJRRFGCIViMWCPHz6TpODQ/w342-h640/DirHyD.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/tecnologiayhogar/DirHyD.png',
+      'assets/images/Floridapp3.png',
     ],
     10: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwhafrsTMU-cl5-99j6qjIyQ2L_MP5chS7_WXNZBWEcI7yL7Vo1XYbvgiZba7V6G_O7t_NCT3DuwTR3j0sVWtZzGW1t9SyupXT15MIehyphenhyphengOzVXjTKhH2gz3-V6bKLC8hloMgfZr9yG36C1hBnZrVy2a9oDXrq0obV_BIaMSDXNdJ-szChOG-em-bnpOwU/w338-h640/LimpDir.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPTg_y4veBHcmTNoIzdI1dEzDg_sWIStK8j-da5lSCFjv0ErwuQ5XQVbQDcgbowE1MY13yWddVJkkIwQ5I5Osl1hn7sq7Va3aUes29eMMlY46he8YMlCL-BXVqY2gzMSoabzcVNBxZSQOWwHaL4XXwq5rOLzDosaevj_wCk1kJd3jqDwoOU3Rx-RaQEVk/w342-h640/Dirmeji.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiellH1YNZG3mSEF7Ww_Dart5XrY-Q4m0xb2rA6rOlXnItmyWOYZSakpVrsPh3f71ExsctiaTBpzOzj4ee5qq5DWnIn-TRoddoFmScgW1yl9OVeHX-tMr9xpYAD8HE4ET9RwTLnsZ48pJ9lnpKlk68ShXebMHg7YyJjD5L9Z9MnULZNGJH6NzT1uiE3YoA/w338-h640/Dirpecesyplantas.png',
+      'assets/images/serviciosparaelhogar/LimpDir.png',
+      'assets/images/serviciosparaelhogar/Dirmeji.png',
+      'assets/images/serviciosparaelhogar/Dirpecesyplantas.png',
 
     ],
     11: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
     ],
     12: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
     ],
     13: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU3u6QTvjI8UqMj45IpvySkDLfMWAnY4eTktYQpH7kQ9CrgbDwibLwPY1sz6xD21ftC8go0SJllLNQ4BvYOW3Y5KTi9LYsurZ4ejprFm2i0W-5nRCigxFaq6GlsuvTh1Zvb7n_bLc-z1Geg15HQ14l8KkQiGVuOI7pxQtU9GGysA4OKaDDvie965q82vM/w338-h640/MARYKAYADIR.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/bellezayspa/MARYKAYADIR.png',
+      'assets/images/Floridapp3.png',
 
     ],
     14: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
 
     ],
     15: [
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEF_CnO2Q7PRZVUsHzuKBTO7Gh1j8NhBkZA3r0bUbLbHDOqm0WXbxIs8d7UxHyXKxoPsv0OGX889gvtz-tXmxBT_Ry_OXkgiQZVQKc2AxSIGbfQKJSkDfqkV5dwXagRNL-wz_AP9RBxAL6_xOnpaRb8jUQdhbmS4hzsVO5rQV5f-W1pFgre5DrLf8rdMs/w342-h640/DirMarce.png',
-      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijZzQdy1anzYYStnXq-s3lZr4Kg6pn_AU4fj8FAaM4tsELqTY9ggOAXRFDD66nzA0e2iKI-2zFohyphenhyphenngTMhU85GVN7Rd6utzAeZPnoL_7dzS120n6b58VKB6pCYNjnm6N465LAhAcpkSdUfcXgT8xZ1V9HQE25wsl6aNZAOsMZnbd1w93Kkoj5jRPT8ouI/s320/Floridapp3.png',
+      'assets/images/modayaccesorios/DirMarce.png',
+      'assets/images/Floridapp3.png',
     ],
     // Continúa con las imágenes de otras categorías...
   };
