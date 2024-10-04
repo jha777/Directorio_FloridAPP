@@ -1,4 +1,0 @@
-#Mon Sep 30 01:22:32 COT 2024
-base.0=D\:\\APP FLORIDA\\FloridAPP2.0\\florida_app\\build\\app\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
