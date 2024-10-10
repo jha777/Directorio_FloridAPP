@@ -37,6 +37,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -99,10 +100,12 @@ flutter:
     - assets/images/serviciosparaelhogar/Dirmeji.png
     - assets/images/serviciosparaelhogar/Dirpecesyplantas.png
     - assets/images/serviciosparaelhogar/LimpDir.png
-    
+    - assets/images/bellezayspa/dirsafisic.png
+    - assets/images/panaderiaypasteleria/Dirantojitos.png
+    - assets/images/tecnologiayhogar/Dircellone.png
+    - assets/images/serviciosparaelhogar/Dirhogarysueño.png 
 
 
-  
   
 flutter_launcher_icons: 
   android: true

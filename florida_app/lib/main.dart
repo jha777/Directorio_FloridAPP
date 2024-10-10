@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -33,19 +35,20 @@ class HomePage extends StatelessWidget {
   final List<String> categorias = [
     'Arte, Cultura y Música',
     'Restaurantes',
-    'Hoteles',
+    'Belleza y SPA',
     'Panadería y Pastelería',
     'Comidas y Bebidas',
+    'Moda y Accesorios',
+    'Hoteles',
     'Heladerías',
-    'Misceláneas y Licores',
-    'Centros turísticos',
     'Tecnología y Hogar',
     'Servicios para el Hogar',
+    'Misceláneas y Licores',
+    'Centros turísticos',
     'Ferretería',
     'Supermercados',
-    'Belleza y SPA',
     'Salud y Bienestar',
-    'Moda y Accesorios',
+    
     // Puedes agregar más categorías aquí.
   ];
 
@@ -62,19 +65,20 @@ class HomePage extends StatelessWidget {
   final List<String> imagenesCategorias = [
     'assets/images/ic_arte_cultura_y_musica.png',
     'assets/images/ic_restaurante.png',
-    'assets/images/ic_hoteles.png',
+    'assets/images/ic_belleza_y_spa.png',
     'assets/images/ic_panaderia.png',
     'assets/images/ic_comida_y_bebidas.png',
+    'assets/images/ic_moda_y_accesorios.png',
+    'assets/images/ic_hoteles.png',
     'assets/images/ic_heladeria.png',
-    'assets/images/ic_licores_v2.png',
-    'assets/images/ic_centro_turistico.png',
     'assets/images/ic_tecnologia_y_hogar.png',
     'assets/images/ic_servicios_para_el_hogar_v2.png',
+    'assets/images/ic_licores_v2.png',
+    'assets/images/ic_centro_turistico.png',
     'assets/images/ic_ferreteria.png',
     'assets/images/ic_supermercados.png',
-    'assets/images/ic_belleza_y_spa.png',
     'assets/images/ic_salud_y_bienestar.png',
-    'assets/images/ic_moda_y_accesorios.png',
+    
     // Puedes agregar más imágenes para las categorías aquí.
   ];
 
@@ -127,7 +131,17 @@ class HomePage extends StatelessWidget {
               );
             }).toList(),
           ),
-        
+          
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: ElevatedButton(
+              onPressed: () {
+                _launchURL('https://wa.me/message/MR4UOZMTVCWBB1');
+              },
+              child: const Text('By JeffTech'),
+            ),
+          ),
+
           const SizedBox(height: 16.0),
           // GridView con categorías
           Expanded(
@@ -202,11 +216,13 @@ class ImagenesCategoriaPage extends StatelessWidget {
       'assets/images/restaurantes/Dirburguer.png',
     ],
     3: [
-      'assets/images/Floridapp3.png',
+      'assets/images/bellezayspa/dirsafisic.png',
+      'assets/images/bellezayspa/MARYKAYADIR.png',
       'assets/images/Floridapp3.png',
     ],
     4: [
       'assets/images/panaderiaypasteleria/Dirvainilla.png',
+      'assets/images/panaderiaypasteleria/Dirantojitos.png',
       'assets/images/Floridapp3.png',
     ],
     5: [
@@ -214,8 +230,9 @@ class ImagenesCategoriaPage extends StatelessWidget {
       'assets/images/Floridapp3.png',
     ],
     6: [
+      'assets/images/modayaccesorios/DirMarce.png',
       'assets/images/Floridapp3.png',
-      'assets/images/Floridapp3.png',
+      
     ],
     7: [
       'assets/images/Floridapp3.png',
@@ -228,9 +245,11 @@ class ImagenesCategoriaPage extends StatelessWidget {
     ],
     9: [
       'assets/images/tecnologiayhogar/DirHyD.png',
+      'assets/images/tecnologiayhogar/Dircellone.png',
       'assets/images/Floridapp3.png',
     ],
     10: [
+      'assets/images/serviciosparaelhogar/Dirhogarysueño.png',
       'assets/images/serviciosparaelhogar/LimpDir.png',
       'assets/images/serviciosparaelhogar/Dirmeji.png',
       'assets/images/serviciosparaelhogar/Dirpecesyplantas.png',
@@ -245,9 +264,9 @@ class ImagenesCategoriaPage extends StatelessWidget {
       'assets/images/Floridapp3.png',
     ],
     13: [
-      'assets/images/bellezayspa/MARYKAYADIR.png',
       'assets/images/Floridapp3.png',
-
+      'assets/images/Floridapp3.png',
+      
     ],
     14: [
       'assets/images/Floridapp3.png',
@@ -255,7 +274,7 @@ class ImagenesCategoriaPage extends StatelessWidget {
 
     ],
     15: [
-      'assets/images/modayaccesorios/DirMarce.png',
+      'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
     ],
     // Continúa con las imágenes de otras categorías...
@@ -322,3 +341,15 @@ class ImagenesCategoriaPage extends StatelessWidget {
     );
   }
 }
+
+// Función para abrir un enlace externo
+Future<void> _launchURL(String s) async {
+  final Uri url = Uri.parse('https://wa.me/message/MR4UOZMTVCWBB1');
+  if (await canLaunchUrl(url)) {
+    await launchUrl(url, mode: LaunchMode.externalApplication);
+  } else {
+    throw 'No se puede abrir el enlace $url';
+  }
+}
+
+
