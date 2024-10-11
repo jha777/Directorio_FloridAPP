@@ -31921,11 +31921,11 @@ A.BC.prototype={
 L(a){var s=null,r=A.a9c(B.va,s,s,B.fQ,s),q=t.s
 return new A.rH(new A.AI(A.b(["Arte, Cultura y M\xfasica","Restaurantes","Belleza y SPA","Panader\xeda y Pasteler\xeda","Comidas y Bebidas","Moda y Accesorios","Hoteles","Helader\xedas","Tecnolog\xeda y Hogar","Servicios para el Hogar","Miscel\xe1neas y Licores","Centros tur\xedsticos","Ferreter\xeda","Supermercados","Salud y Bienestar"],q),A.b(["assets/images/portada1.png","assets/images/portada2.png","assets/images/portada3.png","assets/images/portada4.png"],q),A.b(["assets/images/ic_arte_cultura_y_musica.png","assets/images/ic_restaurante.png","assets/images/ic_belleza_y_spa.png","assets/images/ic_panaderia.png","assets/images/ic_comida_y_bebidas.png","assets/images/ic_moda_y_accesorios.png","assets/images/ic_hoteles.png","assets/images/ic_heladeria.png","assets/images/ic_tecnologia_y_hogar.png","assets/images/ic_servicios_para_el_hogar_v2.png","assets/images/ic_licores_v2.png","assets/images/ic_centro_turistico.png","assets/images/ic_ferreteria.png","assets/images/ic_supermercados.png","assets/images/ic_salud_y_bienestar.png"],q),s),"Directorio FloridAPP",r,!1,s)}}
 A.AI.prototype={
-L(a){var s,r=null,q=A.aaR(B.D2,B.L_),p=this.d,o=A.W(p).h("al<1,db>")
+L(a){var s,r=null,q=A.aaR(B.D2,B.L0),p=this.d,o=A.W(p).h("al<1,db>")
 o=A.X(new A.al(p,new A.Rd(),o),!0,o.h("aC.E"))
 p=o.length
 s=$.a3
-return A.adx(q,A.NR(A.b([new A.pP(new A.N5(150,!0,B.j6,!0),o,new A.N6(new A.bf(new A.a7(s,t.dX),t.DC)),p,r),new A.fr(B.yC,new A.A5(new A.Re(),r,r,r,r,r,r,!1,r,!0,B.L0,r),r),B.GX,new A.Ah(1,B.j9,A.acb(B.iE,new A.Rf(this),15),r)],t.G),B.bU,B.dR))}}
+return A.adx(q,A.NR(A.b([new A.pP(new A.N5(150,!0,B.j6,!0),o,new A.N6(new A.bf(new A.a7(s,t.dX),t.DC)),p,r),new A.fr(B.yC,new A.A5(new A.Re(),r,r,r,r,r,r,!1,r,!0,B.KZ,r),r),B.GX,new A.Ah(1,B.j9,A.acb(B.iE,new A.Rf(this),15),r)],t.G),B.bU,B.dR))}}
 A.Rd.prototype={
 $1(a){return new A.db(new A.Rc(a),null)},
 $S:284}
@@ -31968,7 +31968,7 @@ p.ot(A.akm(null,r,!0,null,new A.RL(this.b),q,null,s,B.uB,!0,t.z))},
 $S:0}
 A.RL.prototype={
 $1(a){var s=null
-return new A.mR(A.NR(A.b([A.Rv(this.a,B.de,s),B.GW,new A.E5(new A.RK(a),s,s,s,s,s,s,!1,s,!0,B.KZ,s)],t.G),B.bU,B.oq),s)},
+return new A.mR(A.NR(A.b([A.Rv(this.a,B.de,s),B.GW,new A.E5(new A.RK(a),s,s,s,s,s,s,!1,s,!0,B.L_,s)],t.G),B.bU,B.oq),s)},
 $S:296}
 A.RK.prototype={
 $0(){A.ns(this.a,!1).fd()},
@@ -65010,9 +65010,9 @@ B.Kc=new A.o(!0,B.z,null,"Roboto",B.A,null,null,null,null,null,null,null,null,nu
 B.JF=new A.o(!0,B.l,null,"Roboto",B.A,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
 B.JP=new A.o(!0,B.l,null,"Roboto",B.A,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
 B.KY=new A.d_(B.Kv,B.Ib,B.IZ,B.JE,B.JR,B.HJ,B.IC,B.HN,B.Js,B.K2,B.J4,B.K3,B.Kc,B.JF,B.JP)
-B.KZ=new A.jz("Cerrar",null,null,null,null)
-B.L_=new A.jz("Directorio FloridAPP",null,null,null,null)
-B.L0=new A.jz("By JeffTech",null,null,null,null)
+B.L_=new A.jz("Cerrar",null,null,null,null)
+B.KZ=new A.jz("REG\xcdSTRATE",null,null,null,null)
+B.L0=new A.jz("Directorio FloridAPP",null,null,null,null)
 B.Nc=new A.a_Q(0,"system")
 B.L1=new A.uL(null)
 B.L2=new A.a_S(0,"clamp")

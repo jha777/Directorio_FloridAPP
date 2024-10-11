@@ -140,7 +140,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 _launchURL('https://wa.me/message/MR4UOZMTVCWBB1');
               },
-              child: const Text('By JeffTech'),
+              child: const Text('REGÍSTRATE'),
             ),
           ),
 
