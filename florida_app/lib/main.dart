@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Directorio FloridAPP',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.yellow,
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(
             fontFamily: 'MiFuente', // Cambia 'MiFuente' por el nombre de tu fuente
@@ -144,7 +144,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 16.0),
+          const SizedBox(height: 16.0), //Espacio entre boton y categorias
           // GridView con categorías
           Expanded(
             child: GridView.builder(
