@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.florida_app-mergeDebugResources-25:/values-sw/values-sw.xml",
+            "outputFile": "com.jefftech.florida_app-mergeDebugResources-25:/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USUARIO\\.gradle\\caches\\transforms-3\\9a7a783aa8682aaa028c57031d48c15e\\transformed\\browser-1.8.0\\res\\values-sw\\values-sw.xml",

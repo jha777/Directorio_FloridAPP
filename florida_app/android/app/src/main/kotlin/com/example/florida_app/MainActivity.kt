@@ -1,4 +1,4 @@
-package com.example.florida_app
+package com.jefftech.florida_app
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.florida_app"
+3    package="com.jefftech.florida_app"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -38,12 +38,12 @@
 30
 31    <permission
 31-->[androidx.core:core:1.13.1] C:\Users\USUARIO\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-32        android:name="com.example.florida_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32        android:name="com.jefftech.florida_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 32-->[androidx.core:core:1.13.1] C:\Users\USUARIO\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 33        android:protectionLevel="signature" />
 33-->[androidx.core:core:1.13.1] C:\Users\USUARIO\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 34
-35    <uses-permission android:name="com.example.florida_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35    <uses-permission android:name="com.jefftech.florida_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 35-->[androidx.core:core:1.13.1] C:\Users\USUARIO\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 35-->[androidx.core:core:1.13.1] C:\Users\USUARIO\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 36
@@ -56,7 +56,7 @@
 42        android:icon="@mipmap/ic_launcher"
 43        android:label="FloridAPP" >
 44        <activity
-45            android:name="com.example.florida_app.MainActivity"
+45            android:name="com.jefftech.florida_app.MainActivity"
 46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 47            android:exported="true"
 48            android:hardwareAccelerated="true"
@@ -126,7 +126,7 @@
 99-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USUARIO\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
 100            android:name="androidx.startup.InitializationProvider"
 100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USUARIO\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
-101            android:authorities="com.example.florida_app.androidx-startup"
+101            android:authorities="com.jefftech.florida_app.androidx-startup"
 101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USUARIO\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
 102            android:exported="false" >
 102-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USUARIO\.gradle\caches\transforms-3\5d9083683aa46ad6646ca7a884bd56df\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37

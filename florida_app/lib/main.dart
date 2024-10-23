@@ -38,6 +38,7 @@ class HomePage extends StatelessWidget {
     'Arte, Cultura y Música',
     'Restaurantes',
     'Belleza y SPA',
+    'Detalles Sorpresa',
     'Panadería y Pastelería',
     'Comidas y Bebidas',
     'Moda y Accesorios',
@@ -68,6 +69,7 @@ class HomePage extends StatelessWidget {
     'assets/images/ic_arte_cultura_y_musica.png',
     'assets/images/ic_restaurante.png',
     'assets/images/ic_belleza_y_spa.png',
+    'assets/images/ic_detalles_sorpresa.png',
     'assets/images/ic_panaderia.png',
     'assets/images/ic_comida_y_bebidas.png',
     'assets/images/ic_moda_y_accesorios.png',
@@ -140,7 +142,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 _launchURL('https://wa.me/message/MR4UOZMTVCWBB1');
               },
-              child: const Text('REGÍSTRATE'),
+              child: const Text('By JeffTech'),
             ),
           ),
 
@@ -223,43 +225,43 @@ class ImagenesCategoriaPage extends StatelessWidget {
       'assets/images/Floridapp3.png',
     ],
     4: [
+      'assets/images/detallessorpresa/Dirbylove.png',
+      'assets/images/detallessorpresa/Diryaris.png',
+    ],
+    5: [
       'assets/images/panaderiaypasteleria/Dirvainilla.png',
       'assets/images/panaderiaypasteleria/Dirantojitos.png',
       'assets/images/Floridapp3.png',
     ],
-    5: [
+    6: [
       'assets/images/bebidasycomidas/DirPanelas.png',
       'assets/images/Floridapp3.png',
     ],
-    6: [
+    7: [
       'assets/images/modayaccesorios/DirMarce.png',
       'assets/images/Floridapp3.png',
       
     ],
-    7: [
+    8: [
       'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
     ],
-    8: [
+    9: [
       'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
 
     ],
-    9: [
+    10: [
       'assets/images/tecnologiayhogar/DirHyD.png',
       'assets/images/tecnologiayhogar/Dircellone.png',
       'assets/images/Floridapp3.png',
     ],
-    10: [
+    11: [
       'assets/images/serviciosparaelhogar/Dirhogarysueño.png',
       'assets/images/serviciosparaelhogar/LimpDir.png',
       'assets/images/serviciosparaelhogar/Dirmeji.png',
       'assets/images/serviciosparaelhogar/Dirpecesyplantas.png',
 
-    ],
-    11: [
-      'assets/images/Floridapp3.png',
-      'assets/images/Floridapp3.png',
     ],
     12: [
       'assets/images/Floridapp3.png',
@@ -268,14 +270,18 @@ class ImagenesCategoriaPage extends StatelessWidget {
     13: [
       'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
-      
     ],
     14: [
       'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
-
+      
     ],
     15: [
+      'assets/images/Floridapp3.png',
+      'assets/images/Floridapp3.png',
+
+    ],
+    16: [
       'assets/images/Floridapp3.png',
       'assets/images/Floridapp3.png',
     ],

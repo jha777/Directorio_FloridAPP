@@ -90,6 +90,7 @@ flutter:
     - assets/images/ic_servicios_para_el_hogar_v2.png
     - assets/images/ic_supermercados.png
     - assets/images/ic_tecnologia_y_hogar.png
+    - assets/images/ic_detalles_sorpresa.png
     - assets/images/arteculturaymusica/Mafedir.png
     - assets/images/bebidasycomidas/DirPanelas.png
     - assets/images/bellezayspa/MARYKAYADIR.png
@@ -104,7 +105,9 @@ flutter:
     - assets/images/bellezayspa/dirsafisic.png
     - assets/images/panaderiaypasteleria/Dirantojitos.png
     - assets/images/tecnologiayhogar/Dircellone.png
-    - assets/images/serviciosparaelhogar/Dirhogarysueño.png 
+    - assets/images/serviciosparaelhogar/Dirhogarysueño.png
+    - assets/images/detallessorpresa/Dirbylove.png
+    - assets/images/detallessorpresa/Diryaris.png
 
 
   

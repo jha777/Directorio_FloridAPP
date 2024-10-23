@@ -13,9 +13,9 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.example.florida_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.jefftech.florida_app"
+    compileSdk = 34
+    ndkVersion = "23.1.7"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -27,11 +27,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.florida_app"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        applicationId = "com.jefftech.florida_app"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
     }
 
     signingConfigs {
@@ -45,47 +45,10 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false // Puedes habilitar ProGuard si lo deseas
+            minifyEnabled true // Puedes habilitar ProGuard si lo deseas
             shrinkResources false // Deshabilita la eliminación de recursos no utilizados
+        
             signingConfig signingConfigs.release // Usa la configuración de firma para release
-        }
-    }
-}
-
-flutter {
-    source = "../.."
-}
-
-android {
-    namespace = "com.example.florida_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
-    }
-
-    defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.florida_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
-    }
-
-    buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.debug
         }
     }
 }
